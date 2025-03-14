@@ -1,0 +1,78 @@
+{
+    "columns": [
+        {
+            "accessorKey": "name",
+            "header": "Name",
+            "type": "string",
+            "size": 250,
+            "filterType": "text",
+            "sortable": true,
+            "cell": "avatar"
+        },
+        {
+            "accessorKey": "status",
+            "header": "Status",
+            "type": "string",
+            "filterType": "none",
+            "sortable": true,
+            "cell": "badge"
+        },
+        {
+            "accessorKey": "role",
+            "header": "Role",
+            "type": "string",
+            "filterType": "multiSelect",
+            "filterOptions": [
+                "Admin",
+                "User",
+                "Manager",
+                "Developer",
+                "Designer",
+                "Product Manager"
+            ],
+            "sortable": true
+        },
+        {
+            "accessorKey": "email",
+            "header": "Email",
+            "type": "string",
+            "filterType": "none",
+            "sortable": true
+        },
+        {
+            "accessorKey": "teams",
+            "header": "Teams",
+            "type": "array",
+            "filterType": "multiSelect",
+            "filterOptions": [
+                "Design",
+                "Product",
+                "Development"
+            ],
+            "sortable": true,
+            "cell": "teamBadges"
+        }
+    ],
+    "features": {
+        "enablePagination": true,
+        "enableRowSelection": true,
+        "enableSearch": true,
+        "enableFilters": true,
+        "enableSorting": true,
+        "defaultPageSize": 10,
+        "pageSizeOptions": [
+            5,
+            10,
+            20,
+            30,
+            40,
+            50
+        ]
+    },
+    "defaultSorting": [
+        {
+            "id": "name",
+            "desc": false
+        }
+    ]
+}
