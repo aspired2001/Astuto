@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Badge } from '@/components/ui/badge';
 import { PlusIcon } from 'lucide-react';
-import ESCustomTable from '../../CustomComponent/ESCustomTable';
+import ESCustomTable from '../CustomComponent/ESCustomTable';
 
 // Define the Person interface based on the expected data structure
 interface Person {

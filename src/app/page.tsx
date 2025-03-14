@@ -3,8 +3,8 @@
 
 import React, { useState, useEffect } from 'react';
 import JSONDrivenTable from "./TableComponent";
-import tableConfig from './tableConfig.json';
-import tableData from './tableData.json';
+import tableConfig from './JsonData/tableConfig.json';
+import tableData from './JsonData/tableData.json';
 
 export default function TablePage() {
   const [isLoading, setIsLoading] = useState(true);
